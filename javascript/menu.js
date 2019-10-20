@@ -16,3 +16,5 @@ $(document).ready(function() {
   });
 
 });
+
+element.removeAttribute('style');
