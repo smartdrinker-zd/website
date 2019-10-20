@@ -2,8 +2,8 @@
 
 .fa-bars{
   display: block !important;
-  margin-right: 10px;
-  margin-left: 20px
+  /* margin-right: 10px;
+  margin-left: 20px */
 }
 
 ul{
@@ -37,6 +37,10 @@ ul li{
 
 @media screen and (max-width:600px){
 
+.header{
+  flex-direction: column;
+}
+
 .footer{
   flex-direction: column !important;
 }
@@ -48,21 +52,48 @@ ul li{
 
 }
 
-@media screen and (max-width:490px){
+@media screen and (max-width:500px){
 
 .header{
   flex-direction: column !important;
+  padding-left: 0%;
+}
+
+.kc-double{
+  width: 100%;
+  padding-left: 0%;
 }
 
 .fa-bars{
   display: block !important;
   margin-right: 10px;
   margin-left: 20px;
-  margin-top: 200px !important
+  /* margin-top: 200px !important */
 }
 
-ul{
-  margin-top: 100px !important
+ul li{
+ margin-left: 0;
+}
+
+.faq{
+  max-width: 450px;
 }
 
 }
+
+@media screen and (max-width:400px){
+
+  .header{
+    width: 100%;
+    padding-left: 0%;
+  }
+  
+  ul li{
+    margin-left: 0;
+  }
+  .faq{
+    max-width: 300px;
+  }
+  
+}
+  
