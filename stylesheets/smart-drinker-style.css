@@ -29,6 +29,11 @@ html {
   overflow-x: hidden;
 }
 
+body{
+  padding: 0;
+  margin: 0%;
+}
+
 .quick-links, .header, .landing, .kc-8 {
   padding: 15px 50px;
 }
@@ -295,6 +300,7 @@ ul li a {
   -ms-flex-direction: row;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow-x: scroll;
 
   
 }
@@ -605,15 +611,17 @@ table {
   margin-bottom: 70px;
 }
 
-.kc-10 .kc-10-content {
+.kc-10-content {
   width: 50%;
   padding: 20px 50px;
 }
 
-.kc-10 .kc-10-img{
+.kc-10-img{
   width: 40%;
-  /* background-image: url("../images/content/water-in-a-glass.jpg"); */
-  /* background-position: center; */
+  height: 500px;
+  background-image: url("../images/content/water-in-a-glass.jpg");
+  background-position: left;
+  background-size: cover;
 }
 
 .footer {
@@ -883,6 +891,18 @@ table {
   }
   
   }
+
+  @media screen and (max-width:980px){
+
+    .kc-10-content{
+      width: 70%;
+    }
+
+    .kc-10-img{
+      width: 100%;
+    }
+      
+    }
   
   @media screen and (max-width:700px){
   
