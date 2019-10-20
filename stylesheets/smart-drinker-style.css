@@ -32,7 +32,7 @@ html {
 body{
   padding: 0 !important;
   margin: 0 !important;
-  width: 100%;
+  zoom: 0;
 }
 
 .quick-links, .header, .landing, .kc-8 {
