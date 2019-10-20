@@ -30,8 +30,9 @@ html {
 }
 
 body{
-  padding: 0;
-  margin: 0%;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
 }
 
 .quick-links, .header, .landing, .kc-8 {
